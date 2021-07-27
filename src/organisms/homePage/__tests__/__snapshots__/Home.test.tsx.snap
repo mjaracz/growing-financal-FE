@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should match the snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="makeStyles-home-1"
+    >
+      <div
+        class="makeStyles-headerWrapper-2"
+      >
+        <header
+          class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-headerAppBar-3 MuiPaper-elevation4"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+          >
+            <a
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-headerButton-4"
+              href="/"
+              role="button"
+              tabindex="0"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Home
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-headerButton-4"
+              href="/questionnaire"
+              role="button"
+              tabindex="0"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Questionnaire
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </header>
+      </div>
+      <header
+        class="makeStyles-homeHeader-5"
+      >
+        <img
+          alt="logo"
+          class="makeStyles-headerLogo-6"
+          src="reactLogo.svg"
+        />
+      </header>
+      <main
+        class="makeStyles-homeMain-8"
+      >
+        <p
+          class="makeStyles-mainTextBlock-9"
+        >
+          Simply tell as what you need in your new project.
+        </p>
+        <a
+          class="makeStyles-homeLink-10"
+          href="/questionnaire"
+        >
+          Go to questionnaire
+        </a>
+      </main>
+    </div>
+  </div>
+</body>
+`;

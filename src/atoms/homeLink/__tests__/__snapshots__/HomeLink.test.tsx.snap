@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeLink /> when pass correct props, should match the snapshot 1`] = `
+<body>
+  <div>
+    <a
+      class="makeStyles-homeLink-1"
+      href="/exmaple/route"
+    >
+      mock content
+    </a>
+  </div>
+</body>
+`;

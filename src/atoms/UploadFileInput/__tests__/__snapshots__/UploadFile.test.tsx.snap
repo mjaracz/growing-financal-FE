@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UploadFile /> When pass correct props, should match the snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="makeStyles-uploadWrapper-1"
+    >
+      <input
+        class="makeStyles-uploadFileInput-2"
+        id="file"
+        type="file"
+      />
+      <label
+        class="makeStyles-uploadLabel-3"
+        for="file"
+      >
+        Select file
+      </label>
+      <p
+        class="makeStyles-uploadHintText-4"
+      >
+        hint text mock
+      </p>
+    </div>
+  </div>
+</body>
+`;

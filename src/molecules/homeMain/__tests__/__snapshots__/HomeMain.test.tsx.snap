@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeMain /> should match the snapshot 1`] = `
+<body>
+  <div>
+    <main
+      class="makeStyles-homeMain-1"
+    >
+      <p
+        class="makeStyles-mainTextBlock-2"
+      >
+        Simply tell as what you need in your new project.
+      </p>
+      <a
+        class="makeStyles-homeLink-3"
+        href="/questionnaire"
+      >
+        Go to questionnaire
+      </a>
+    </main>
+  </div>
+</body>
+`;
