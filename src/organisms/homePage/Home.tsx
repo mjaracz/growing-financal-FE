@@ -1,7 +1,6 @@
 import React from 'react';
 import { HomeMain } from 'molecules/homeMain';
-import { HomeHeader } from 'molecules/homeHeader';
-import { CustomAppBar } from 'molecules/customAppBar';
+import { CustomAppBar } from 'molecules/headerAppBar';
 import { useStyle } from './useStyle'
 
 export function HomePage() {
@@ -10,7 +9,6 @@ export function HomePage() {
   return (
     <div className={styles.home}>
       <CustomAppBar />
-      <HomeHeader />
       <HomeMain />
     </div>
   )

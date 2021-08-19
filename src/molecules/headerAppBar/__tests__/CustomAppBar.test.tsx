@@ -1,13 +1,13 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { Questionnaire } from '../QuestionnairePage';
+import { CustomAppBar } from '../HeaderAppBar';
 import { UnitTestWrapper } from 'common/UnitTestWrapper';
 
-describe('<Questionnaire />', () => {
-  it('should match the snapshot', () => {
+describe('<CurrencySelect />', () => {
+  it('should math the snapshot', () => {
     const { baseElement } = render(
       <UnitTestWrapper>
-        <Questionnaire />
+        <CustomAppBar />
       </UnitTestWrapper>
     );
     expect(baseElement).toMatchSnapshot();
