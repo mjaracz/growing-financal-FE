@@ -14,7 +14,7 @@ const questionnaireFormSlice = createSlice({
       state.status = 'loading';
     },
     fetchCurrenciesRate(state, action) {
-      state.status = 'succesful';
+      state.status = 'successful';
       state.currencies = action.payload;
     },
     errorCurrenciesRate(state, action) {
